@@ -24,15 +24,9 @@ class TodoForm extends Component {
       priority: this.state.priority,
       dueDate: new Date().toDateString(),
     };
-    const newItem = {
-      text:
-        this.state.text === ""
-          ? `Task #${this.state.items.length + 1}`
-          : this.state.text,
-      id: Date.now(),
-    };
+    
     this.setState((prevState) => ({
-      items: prevState.items.concat(newItem),
+      items: prevState.items.concat(task),
       text: "",
     }));
     this.props.addTask(task);

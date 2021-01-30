@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+
+# TODO-LIST 
+
+La presencia de este documento en este repositorio es un compromiso explícito de los colaboradores de seguir el siguiente código de honor:
+
+Código de Honor
+------
+Debes seguir el Código de honor del ingeniero de sistemas para defender el estándar de integridad académica de la ECI:
+
+- Tus respuestas a tareas, cuestionarios y exámenes deben ser tu propio trabajo (excepto para las tareas que permiten explícitamente la colaboración).
+
+- No puedes compartir tus soluciones de tareas, cuestionarios o exámenes con otra persona a menos que el instructor lo permita explícitamente. Esto incluye cualquier cosa escrita por ti, como también cualquier solución oficial proporcionada por el docente o el monitor del curso.
+
+- No puedes participar en otras actividades que mejorarán de manera deshonesta tus resultados o que mejorarán de manera deshonesta o dañarán los resultados de otras personas.
+
+
+
+Curso **CodeAcademy**:
+![](images/codeacademy.PNG)
+
+
+**Resultado final:**
+![](images/app.PNG)
+
+## Instrucciones de uso
+
+
+Para poder usar el proyecto de manera local lo primero que debe realizar es clonar este repositorio utilizando el siguiente comando desde la terminal del S.O que este utilizando:
+
+```
+git clone https://github.com/EdKillah/IETI-Lab-1
+```
+Otra alternativa es descargarlo directamente por formato ZIP en el botón que indica **"Clone or Download".**
+Luego debe redirigirse por medio de la terminal al directorio raíz la cual contiene el achivo **package.json**
+
+Una vez se encuentre en este directorio se debe compilar el programa para esto se debe ejecutar el siguiente comando:
+
+```
+npm start
+```
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -6,7 +6,7 @@ import TodoList from "./components/TodoList";
 import TodoForm from "./components/TodoForm";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  
   const todos = [
     { text: "Learn React", priority: 5, dueDate: new Date().toDateString() },
     {
@@ -20,6 +20,7 @@ function App() {
       dueDate: new Date(2020, 1, 30).toDateString(),
     },
   ];
+  const [tasks, setTasks] = useState([...todos]);
 
   const addTask = (newTask) => {    
     setTasks((prev) => {
