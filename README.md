@@ -16,7 +16,7 @@ Debes seguir el C√≥digo de honor del ingeniero de sistemas para defender el est√
 
 
 Curso **CodeAcademy**:
-![](images/codeacademy.PNG)
+![](images/cursocompleto.PNG)
 
 
 **Resultado final:**
